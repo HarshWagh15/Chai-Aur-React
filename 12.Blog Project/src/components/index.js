@@ -3,7 +3,16 @@ import Footer from "./Footer/Footer";
 import Container from "./Container/Container";
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
-import Common_Button from "./Common_Button"
+import Button from "./Common_Button"
 import Input from "./Input"
+import RTE from "./RTE";
+import Signup from "./Signup";
+import Select from "./Select";
+import Postcard from "./Postcard";
+import Login from "./Login";
+import PostForm from "./Post-Form/PostForm";
+import AuthLayout from "./AuthLayout"
 
-export {Header,Footer,Container,Logo,LogoutBtn,Common_Button,Input}
+export {Header,Footer,Container,Logo,LogoutBtn,Button,Input,RTE,Signup,Select,Postcard,Login,PostForm
+    ,AuthLayout
+}

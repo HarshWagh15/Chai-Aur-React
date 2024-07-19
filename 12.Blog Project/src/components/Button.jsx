@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Common_Button({
+function Button({
     children,
     type="button",
     bgColor="bg-blue-500",
@@ -16,4 +16,4 @@ function Common_Button({
     )
 }
 
-export default Common_Button
+export default Button
