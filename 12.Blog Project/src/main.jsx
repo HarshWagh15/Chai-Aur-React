@@ -5,17 +5,17 @@ import './index.css'
 import { Provider } from 'react-redux'
 import store from './store/store.js'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Home from './page/Home.jsx'
+import Home from './Pages/Home.jsx'
 import { AuthLayout, Login } from './components/index.js'
 
 
-import AddPost from "./page/AddPost";
-import Signup from './page/Signup'
-import EditPost from "./page/EditPost";
+import AddPost from "./Pages/AddPost";
+import Signup from './Pages/Signup'
+import EditPost from "./Pages/EditPost";
 
-import Post from "./page/Post";
+import Post from "./Pages/Post";
 
-import AllPosts from "./page/AllPosts";
+import AllPosts from "./Pages/AllPosts";
 
 const router = createBrowserRouter([
   {
